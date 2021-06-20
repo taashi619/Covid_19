@@ -24,10 +24,10 @@ export class CardComponent implements OnInit {
       })
     }
     types=[
-      {case:"total_cases",value:"1"},
-      {case:"active_cases"},
-      {case:"local_deaths"},
-      {case:"local_recovered"}
+      {case:"CASES",value:"1"},
+      {case:"ACTIVE CASES"},
+      {case:"DEATHS"},
+      {case:"RECOVERD"}
       
     ];
   
