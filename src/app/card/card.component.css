@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .content { 
+    padding: 16px; 
+    margin-bottom: 16px;
+  }
+    
+  .content > mat-card { 
+    width: 200px; 
+  }
+  
+  .mat{
+    background-color: rgb(248, 68, 173);
+  }
+  
+  .number{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;    
+  }
